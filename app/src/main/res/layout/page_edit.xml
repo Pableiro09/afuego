@@ -9,10 +9,11 @@
     tools:context=".PageEdit">
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="169dp">
+        tools:layout_editor_absoluteY="-68dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -37,7 +38,7 @@
                 app:srcCompat="@drawable/_85e469fcb11b227491c3374" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/Editar_perfil"
                 android:layout_width="167dp"
                 android:layout_height="43dp"
                 android:text="Editar perfil"
@@ -54,7 +55,7 @@
 
             <TextView
                 android:id="@+id/textView3"
-                android:layout_width="match_parent"
+                android:layout_width="82dp"
                 android:layout_height="43dp"
                 android:fontFamily="sans-serif-black"
                 android:text="Archivos"
@@ -68,6 +69,49 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.021" />
+
+            <ImageView
+                android:id="@+id/fotoperfil"
+                android:layout_width="146dp"
+                android:layout_height="136dp"
+                android:translationX="340px"
+                app:srcCompat="@drawable/default_pfp_svg" />
+
+            <ImageView
+                android:id="@+id/imagen1"
+                android:layout_width="116dp"
+                android:layout_height="99dp"
+                android:translationX="100px"
+                android:translationY="120px"
+                app:srcCompat="@drawable/captura_de_pantalla__208_" />
+
+            <ImageView
+                android:id="@+id/suma1"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:translationX="335px"
+                android:translationY="19px"
+                app:srcCompat="@drawable/_a4e5b0d52c12719f9fe3b08d314fa21_simbolo_mas_brillante" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="116dp"
+                android:layout_height="99dp"
+                android:translationX="100px"
+                android:translationY="120px"
+                app:srcCompat="@drawable/captura_de_pantalla__208_" />
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                app:srcCompat="@drawable/_a4e5b0d52c12719f9fe3b08d314fa21_simbolo_mas_brillante" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
 
         </LinearLayout>
 
